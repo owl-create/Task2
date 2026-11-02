@@ -1,0 +1,30 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 打包产物
+build/
+dist/
+*.egg-info/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本工具生成的结果文件(避免把处理结果提交进仓库)
+*_resized.*
+*_cropped.*
+*_rotated.*
+*_flipped.*
+*_gray.*
+*_converted.*
+output/
